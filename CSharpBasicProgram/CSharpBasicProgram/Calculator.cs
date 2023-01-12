@@ -11,9 +11,9 @@ namespace CSharpBasicProgram
         /// <summary>
         /// Instance Variables
         /// </summary>
-        public int first, second, sum;
+        public int first, second, sub;
         /// <summary>
-        /// Addition of 2 numbers to get sum
+        /// Sbutraction of 2 numbers to get sub
         /// </summary>
         public Calculator(int firstNumber, int secondNumer)
         {
@@ -21,10 +21,10 @@ namespace CSharpBasicProgram
             second = secondNumer;
         }
        
-        public void Addition()
+        public void Subtraction()
         {
-            sum = first + second;
-            Console.WriteLine("sum:" + sum);
+            sub = first - second;
+            Console.WriteLine("sub:" + sub);
         }
            
 

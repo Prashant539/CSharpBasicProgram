@@ -11,7 +11,8 @@ namespace CSharpBasicProgram
             Console.WriteLine("Please enter the Second Number: ");
             int second = Convert.ToInt32(Console.ReadLine());
             Calculator calculator = new Calculator(first, second);
-            calculator.Addition();
+            //calculator.Addition();
+            calculator.Subtraction();
             Console.ReadLine();
         }
     }
